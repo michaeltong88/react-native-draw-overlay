@@ -21,7 +21,7 @@ to AndroidManifest.xml
 import DrawOverlay from 'react-native-draw-overlay';
 
 // TODO: What to do with the module?
-DrawOverlay.requestDispalayOverOtherAppsPermission()
+DrawOverlay.requestDisplayOverOtherAppsPermission()
 	     .then(res => {
 		 // res will be true if permission was granted 
 	     })
